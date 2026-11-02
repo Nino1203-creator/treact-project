@@ -626,6 +626,7 @@ header {
   max-width: 576px;
   text-align: center;
 }
+
 .plan {
   position: relative;
   margin-top: 64px;
@@ -760,8 +761,8 @@ header {
   color: #f7fafc;
   background: linear-gradient(
     115deg,
-    rgb(245, 101, 101) 0%,
-    rgb(254, 178, 178) 100%
+    rgb(235, 70, 70) 0%,
+    rgba(248, 129, 129, 0.938) 100%
   );
 }
 .plan:nth-child(odd) .plan__name,
@@ -770,7 +771,7 @@ header {
   color: #1a202c;
 }
 .plan:nth-child(odd) .plan__duration {
-  color: #a0aec0;
+  color: #81a2cc;
 }
 .plan:nth-child(2) .plan__name,
 .plan:nth-child(2) .plan__price,
@@ -781,7 +782,7 @@ header {
 }
 .plan:nth-child(1) .plan__middle,
 .plan:nth-child(3) .plan__middle {
-  border-top: 2px solid rgb(229, 231, 235);
+  border-top: 2px solid rgb(215, 223, 238);
   border-bottom: 2px solid rgb(229, 231, 235);
 }
 .plan:nth-child(2) .plan__middle {
