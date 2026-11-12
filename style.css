@@ -44,6 +44,7 @@ h1 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  align-items: center;
 }
 .section__tag {
   font-size: 16px;
@@ -514,8 +515,8 @@ header {
   max-width: 320px;
 }
 .step__title {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight:900;
+  font-size: 30px;
   color: #243e63;
   line-height: 1;
 }
@@ -729,17 +730,17 @@ header {
 }
 .plan__button:hover {
   transform: translate(1px, -1px);
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+  box-shadow: rgba(0, 0, 0, 0.137) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .plan:nth-child(1) .plan__stripe,
-.plan:nth-child(1) .plan__button {
-  color: #f7fafc;
+.plan:nth-child(1) {
+  color: #e8edf3;
   background: linear-gradient(
-    115deg,
-    rgb(56, 178, 172) 0%,
-    rgb(129, 230, 217) 100%
+    135deg,
+    rgb(56, 143, 178) 25%,
+    rgb(113, 228, 212) 75%
   );
 }
 .plan:nth-child(2) {
@@ -757,7 +758,7 @@ header {
   visibility: hidden;
 }
 .plan:nth-child(3) .plan__stripe,
-.plan:nth-child(3) .plan__button {
+.plan:nth-child(3) {
   color: #f7fafc;
   background: linear-gradient(
     115deg,
@@ -768,10 +769,10 @@ header {
 .plan:nth-child(odd) .plan__name,
 .plan:nth-child(odd) .plan__price,
 .plan:nth-child(odd) .plan__target {
-  color: #1a202c;
+  color: #ccd0da;
 }
 .plan:nth-child(odd) .plan__duration {
-  color: #81a2cc;
+  color: #d6dbe2;
 }
 .plan:nth-child(2) .plan__name,
 .plan:nth-child(2) .plan__price,
@@ -842,7 +843,7 @@ section #testimonials {
   margin-top: 40px;
 }
 .testimonial__rating {
-  color: rgba(246, 173, 85);
+  color:gold;
   margin-right: 2px;
   margin-top: 4px;
 }
@@ -919,7 +920,6 @@ section #testimonials {
   height: 1.25rem;
   width: 1.25rem;
 }
-
 .divider {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
