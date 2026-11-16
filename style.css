@@ -273,6 +273,8 @@ header .row {
 }
 .header__description {
   width: 40%;
+  margin: 0 auto;
+  
 }
 .header__description--para {
   margin: 32px 0;
@@ -306,7 +308,7 @@ header .row {
   width: 100%;
   border-radius: 500px;
   border: 2px solid rgb(229, 231, 235);
-  padding: 20px 192px 20px 32px;
+  padding: 20px 190px 20px 32px;
   color: rgb(36, 62, 99);
   font-size: 16px;
   font-weight: 500;
@@ -329,11 +331,12 @@ header .row {
   border-color: rgba(100, 21, 255);
 }
 .header__customers--title {
-  margin-top: 80px;
+  margin:0 auto;
   color: #a0aec0;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.6;
+  align-items: center;
 }
 .header__customers {
   margin-top: 16px;
@@ -472,7 +475,8 @@ header {
   display: block;
 }
 .quality__img {
-  z-index: 1;
+  width: 100%;
+  height: 100%;
 }
 
 /* STEPS */
@@ -565,9 +569,11 @@ header {
   padding: 32px 64px 32px 0;
 }
 .values__description,
-.values__img {
+.values__img{
   width: 50%;
 }
+
+
 .values__list {
   margin-left: 0px;
   margin-right: 0px;
@@ -615,6 +621,10 @@ header {
   line-height: 1.625;
   color: #718096;
 }
+.values__btn{
+  align-items: center;
+}
+
 
 /* PRICING */
 
@@ -1256,6 +1266,9 @@ footer {
     margin-right: 0px;
     padding-right: 48px;
   }
+  .quality__img{
+    width:100%;
+  }
   .value {
     margin-top: 2.5rem;
   }
@@ -1334,6 +1347,7 @@ footer {
   }
   .quality__description,
   .quality__img--wrapper,
+  .quality__img,
   .steps__description,
   .steps__img--wrapper,
   .values__description,
